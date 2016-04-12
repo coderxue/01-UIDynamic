@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DFC6521A65562600D1CF51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFC6511A65562600D1CF51 /* main.m */; };
+		18DFC6551A65562600D1CF51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFC6541A65562600D1CF51 /* AppDelegate.m */; };
+		18DFC6581A65562600D1CF51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFC6571A65562600D1CF51 /* ViewController.m */; };
+		18DFC65B1A65562600D1CF51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DFC6591A65562600D1CF51 /* Main.storyboard */; };
+		18DFC65D1A65562600D1CF51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DFC65C1A65562600D1CF51 /* Images.xcassets */; };
+		18DFC6601A65562600D1CF51 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DFC65E1A65562600D1CF51 /* LaunchScreen.xib */; };
+		18DFC66C1A65562600D1CF51 /* _2_UIDynamic_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFC66B1A65562600D1CF51 /* _2_UIDynamic_______Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18DFC6661A65562600D1CF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DFC6441A65562600D1CF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DFC64B1A65562600D1CF51;
+			remoteInfo = "02-UIDynamic(愤怒的小鸟)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18DFC64C1A65562600D1CF51 /* 02-UIDynamic(愤怒的小鸟).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-UIDynamic(愤怒的小鸟).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DFC6501A65562600D1CF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DFC6511A65562600D1CF51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18DFC6531A65562600D1CF51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18DFC6541A65562600D1CF51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18DFC6561A65562600D1CF51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18DFC6571A65562600D1CF51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18DFC65A1A65562600D1CF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18DFC65C1A65562600D1CF51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18DFC65F1A65562600D1CF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18DFC6651A65562600D1CF51 /* 02-UIDynamic(愤怒的小鸟)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-UIDynamic(愤怒的小鸟)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DFC66A1A65562600D1CF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DFC66B1A65562600D1CF51 /* _2_UIDynamic_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2_UIDynamic_______Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DFC6491A65562600D1CF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DFC6621A65562600D1CF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18DFC6431A65562600D1CF51 = {
+			isa = PBXGroup;
+			children = (
+				18DFC64E1A65562600D1CF51 /* 02-UIDynamic(愤怒的小鸟) */,
+				18DFC6681A65562600D1CF51 /* 02-UIDynamic(愤怒的小鸟)Tests */,
+				18DFC64D1A65562600D1CF51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18DFC64D1A65562600D1CF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18DFC64C1A65562600D1CF51 /* 02-UIDynamic(愤怒的小鸟).app */,
+				18DFC6651A65562600D1CF51 /* 02-UIDynamic(愤怒的小鸟)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18DFC64E1A65562600D1CF51 /* 02-UIDynamic(愤怒的小鸟) */ = {
+			isa = PBXGroup;
+			children = (
+				18DFC6531A65562600D1CF51 /* AppDelegate.h */,
+				18DFC6541A65562600D1CF51 /* AppDelegate.m */,
+				18DFC6561A65562600D1CF51 /* ViewController.h */,
+				18DFC6571A65562600D1CF51 /* ViewController.m */,
+				18DFC6591A65562600D1CF51 /* Main.storyboard */,
+				18DFC65C1A65562600D1CF51 /* Images.xcassets */,
+				18DFC65E1A65562600D1CF51 /* LaunchScreen.xib */,
+				18DFC64F1A65562600D1CF51 /* Supporting Files */,
+			);
+			path = "02-UIDynamic(愤怒的小鸟)";
+			sourceTree = "<group>";
+		};
+		18DFC64F1A65562600D1CF51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18DFC6501A65562600D1CF51 /* Info.plist */,
+				18DFC6511A65562600D1CF51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18DFC6681A65562600D1CF51 /* 02-UIDynamic(愤怒的小鸟)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18DFC66B1A65562600D1CF51 /* _2_UIDynamic_______Tests.m */,
+				18DFC6691A65562600D1CF51 /* Supporting Files */,
+			);
+			path = "02-UIDynamic(愤怒的小鸟)Tests";
+			sourceTree = "<group>";
+		};
+		18DFC6691A65562600D1CF51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18DFC66A1A65562600D1CF51 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18DFC64B1A65562600D1CF51 /* 02-UIDynamic(愤怒的小鸟) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DFC66F1A65562600D1CF51 /* Build configuration list for PBXNativeTarget "02-UIDynamic(愤怒的小鸟)" */;
+			buildPhases = (
+				18DFC6481A65562600D1CF51 /* Sources */,
+				18DFC6491A65562600D1CF51 /* Frameworks */,
+				18DFC64A1A65562600D1CF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-UIDynamic(愤怒的小鸟)";
+			productName = "02-UIDynamic(愤怒的小鸟)";
+			productReference = 18DFC64C1A65562600D1CF51 /* 02-UIDynamic(愤怒的小鸟).app */;
+			productType = "com.apple.product-type.application";
+		};
+		18DFC6641A65562600D1CF51 /* 02-UIDynamic(愤怒的小鸟)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DFC6721A65562600D1CF51 /* Build configuration list for PBXNativeTarget "02-UIDynamic(愤怒的小鸟)Tests" */;
+			buildPhases = (
+				18DFC6611A65562600D1CF51 /* Sources */,
+				18DFC6621A65562600D1CF51 /* Frameworks */,
+				18DFC6631A65562600D1CF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DFC6671A65562600D1CF51 /* PBXTargetDependency */,
+			);
+			name = "02-UIDynamic(愤怒的小鸟)Tests";
+			productName = "02-UIDynamic(愤怒的小鸟)Tests";
+			productReference = 18DFC6651A65562600D1CF51 /* 02-UIDynamic(愤怒的小鸟)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18DFC6441A65562600D1CF51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					18DFC64B1A65562600D1CF51 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					18DFC6641A65562600D1CF51 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 18DFC64B1A65562600D1CF51;
+					};
+				};
+			};
+			buildConfigurationList = 18DFC6471A65562600D1CF51 /* Build configuration list for PBXProject "02-UIDynamic(愤怒的小鸟)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18DFC6431A65562600D1CF51;
+			productRefGroup = 18DFC64D1A65562600D1CF51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DFC64B1A65562600D1CF51 /* 02-UIDynamic(愤怒的小鸟) */,
+				18DFC6641A65562600D1CF51 /* 02-UIDynamic(愤怒的小鸟)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DFC64A1A65562600D1CF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DFC65B1A65562600D1CF51 /* Main.storyboard in Resources */,
+				18DFC6601A65562600D1CF51 /* LaunchScreen.xib in Resources */,
+				18DFC65D1A65562600D1CF51 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DFC6631A65562600D1CF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DFC6481A65562600D1CF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DFC6581A65562600D1CF51 /* ViewController.m in Sources */,
+				18DFC6551A65562600D1CF51 /* AppDelegate.m in Sources */,
+				18DFC6521A65562600D1CF51 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DFC6611A65562600D1CF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DFC66C1A65562600D1CF51 /* _2_UIDynamic_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18DFC6671A65562600D1CF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DFC64B1A65562600D1CF51 /* 02-UIDynamic(愤怒的小鸟) */;
+			targetProxy = 18DFC6661A65562600D1CF51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18DFC6591A65562600D1CF51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DFC65A1A65562600D1CF51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18DFC65E1A65562600D1CF51 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DFC65F1A65562600D1CF51 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18DFC66D1A65562600D1CF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18DFC66E1A65562600D1CF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18DFC6701A65562600D1CF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-UIDynamic(愤怒的小鸟)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18DFC6711A65562600D1CF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-UIDynamic(愤怒的小鸟)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18DFC6731A65562600D1CF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-UIDynamic(愤怒的小鸟)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-UIDynamic(愤怒的小鸟).app/02-UIDynamic(愤怒的小鸟)";
+			};
+			name = Debug;
+		};
+		18DFC6741A65562600D1CF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-UIDynamic(愤怒的小鸟)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-UIDynamic(愤怒的小鸟).app/02-UIDynamic(愤怒的小鸟)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DFC6471A65562600D1CF51 /* Build configuration list for PBXProject "02-UIDynamic(愤怒的小鸟)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DFC66D1A65562600D1CF51 /* Debug */,
+				18DFC66E1A65562600D1CF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DFC66F1A65562600D1CF51 /* Build configuration list for PBXNativeTarget "02-UIDynamic(愤怒的小鸟)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DFC6701A65562600D1CF51 /* Debug */,
+				18DFC6711A65562600D1CF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18DFC6721A65562600D1CF51 /* Build configuration list for PBXNativeTarget "02-UIDynamic(愤怒的小鸟)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DFC6731A65562600D1CF51 /* Debug */,
+				18DFC6741A65562600D1CF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18DFC6441A65562600D1CF51 /* Project object */;
+}
